@@ -35,4 +35,21 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-https://youtu.be/XkOXNlHJP6M?si=8wbDZIbepRUISeiU&t=2207
+https://youtu.be/XkOXNlHJP6M?si=WfYfi4iO_1ukYQkx&t=10184
+https://github.com/webprodigies/fuzzie-production/blob/main/src/app/(main)/(pages)/connections/page.tsx
+
+https://app.uploadcare.com/ --> To Upload Images for user settings
+https://console.neon.tech/ --> To create DB and tables with Prisma
+https://dashboard.clerk.com/ --> User & Authentication > Social Connections
+
+COMMANDS FOR PRISMA
+npm prisma generate
+npm prisma db push
+npx prisma studio --> http://localhost:5555
+
+https://dashboard.ngrok.com/
+https://dashboard.ngrok.com/get-started/setup/windows
+
+COMMANDS FOR ngrok console
+ngrok config add-authtoken
+ngrok http http://localhost:3000 --> copy link and create a webhook endpoint in dashboard/clerk webhooks

@@ -12,7 +12,22 @@
   display: none !important;
 }
 .bg-radial-gradient {
-  background-image: radial-gradient(circle at 10% 20%, rgba(4, 159, 108, 1) 0%, rgba(194, 254, 113, 1) 90.1%);
+  background-image: radial-gradient(
+    circle at 10% 20%,
+    rgba(4, 159, 108, 1) 0%,
+    rgba(194, 254, 113, 1) 90.1%
+  );
+}
+
+.cl-modalBackdrop {
+  background-color: #49247a3d;
+}
+.cl-card {
+  border-color: var(--theme-border-subtlest-tertiary);
+  border-width: 1px;
+}
+.cl-internal-h9qt1g {
+  color: #ffffff5e;
 }
 
 @layer base {
@@ -37,28 +52,29 @@
     --input: 0 0% 89.8%;
     --ring: 0 0% 3.9%;
     --radius: 0.5rem;
+    --theme-border-subtlest-tertiary: color-mix(in srgb, #a8b3cf, transparent 60%);
   }
 
   .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 14.9%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 0 0% 14.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 0 0% 83.1%;
+    --background: 232 50% 2%;
+    --foreground: 232 1% 98%;
+    --card: 232 50% 2%;
+    --card-foreground: 232 1% 98%;
+    --popover: 232 50% 2%;
+    --popover-foreground: 232 1% 98%;
+    --primary: 232 1% 98%;
+    --primary-foreground: 232 1% 9%;
+    --secondary: 232 1% 14.9%;
+    --secondary-foreground: 232 1% 98%;
+    --muted: 232 1% 14.9%;
+    --muted-foreground: 232 1% 63.9%;
+    --accent: 232 1% 14.9%;
+    --accent-foreground: 232 1% 98%;
+    --destructive: 4 77% 55%;
+    --destructive-foreground: 4 85% 48% / 24%;
+    --border: 232 1% 14.9%;
+    --input: 232 1% 14.9%;
+    --ring: 232 1% 83.1%;
   }
 }
 

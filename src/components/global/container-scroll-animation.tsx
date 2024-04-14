@@ -3,7 +3,11 @@ import React, { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import Image from "next/image";
 
-export const ContainerScroll = ({ titleComponent }: { titleComponent: string | React.ReactNode }) => {
+export const ContainerScroll = ({
+  titleComponent,
+}: {
+  titleComponent: string | React.ReactNode;
+}) => {
   const containerRef = useRef<any>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
