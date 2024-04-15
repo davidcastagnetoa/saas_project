@@ -35,16 +35,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-https://youtu.be/XkOXNlHJP6M?si=WfYfi4iO_1ukYQkx&t=10184
-https://github.com/webprodigies/fuzzie-production/blob/main/src/app/(main)/(pages)/connections/page.tsx
+Multiple Selector UI
+https://shadcnui-expansions.typeart.cc/docs/multiple-selector
+
+[Youtube Tutorial](https://youtu.be/XkOXNlHJP6M?si=ELlG8UALrCBvI1ST&t=11827)
+[Github Repository](<https://github.com/webprodigies/fuzzie-production/blob/main/src/app/(main)/(pages)/connections/page.tsx>)
 
 https://app.uploadcare.com/ --> To Upload Images for user settings
 https://console.neon.tech/ --> To create DB and tables with Prisma
 https://dashboard.clerk.com/ --> User & Authentication > Social Connections
 
 COMMANDS FOR PRISMA
-npm prisma generate
-npm prisma db push
+npx prisma generate
+npx prisma db push
 npx prisma studio --> http://localhost:5555
 
 https://dashboard.ngrok.com/

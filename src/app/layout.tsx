@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark, shadesOfPurple } from "@clerk/themes";
+import ModalProvider from "@/providers/modal-provider";
 
 const titillium_Web = Titillium_Web({ subsets: ["latin"], weight: ["400"] });
 
@@ -33,13 +34,8 @@ export default function RootLayout({
       <html lang="en">
         <head />
         <body className={titillium_Web.className}>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
+          <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+            <ModalProvider>{children}</ModalProvider>
           </ThemeProvider>
         </body>
       </html>
