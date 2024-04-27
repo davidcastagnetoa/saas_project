@@ -38,7 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Multiple Selector UI
 https://shadcnui-expansions.typeart.cc/docs/multiple-selector
 
-[Youtube Tutorial](https://youtu.be/XkOXNlHJP6M?si=ELlG8UALrCBvI1ST&t=11827)
+[Youtube Tutorial](https://youtu.be/XkOXNlHJP6M?si=JaveXAN6p9w2I_1U&t=12920)
 [Github Repository](<https://github.com/webprodigies/fuzzie-production/blob/main/src/app/(main)/(pages)/connections/page.tsx>)
 
 https://app.uploadcare.com/ --> To Upload Images for user settings
@@ -56,3 +56,4 @@ https://dashboard.ngrok.com/get-started/setup/windows
 COMMANDS FOR ngrok console
 ngrok config add-authtoken
 ngrok http http://localhost:3000 --> copy link and create a webhook endpoint in dashboard/clerk webhooks
+https://youtu.be/XkOXNlHJP6M?si=JaveXAN6p9w2I_1U&t=12920

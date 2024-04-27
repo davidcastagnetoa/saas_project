@@ -26,9 +26,27 @@ const Workflow = ({ description, id, name, publish }: Props) => {
       <CardHeader className="flex flex-col gap-4">
         <Link href={`/workflows/editor/${id}`}>
           <div className="flex flex-row gap-2">
-            <Image src="/googleDrive.png" alt="Google Drive" height={30} width={30} className="object-contain" />
-            <Image src="/notion.png" alt="Google Drive" height={30} width={30} className="object-contain" />
-            <Image src="/discord.png" alt="Google Drive" height={30} width={30} className="object-contain" />
+            <Image
+              src="/googleDrive.png"
+              alt="Google Drive"
+              height={30}
+              width={30}
+              className="object-contain"
+            />
+            <Image
+              src="/notion.png"
+              alt="Google Drive"
+              height={30}
+              width={30}
+              className="object-contain"
+            />
+            <Image
+              src="/discord.png"
+              alt="Google Drive"
+              height={30}
+              width={30}
+              className="object-contain"
+            />
           </div>
           <div className="">
             <CardTitle className="text-lg">{name}</CardTitle>
